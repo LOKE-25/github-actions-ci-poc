@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-ci-poc",
+  "version": "1.0.0",
+  "description": "POC project for GitHub Actions pipeline",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Build successful!"
+  },
+  "author": "Loke",
+  "license": "MIT"
+}
