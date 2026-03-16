@@ -1,0 +1,17 @@
+name: GitHub Actions POC Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Print message
+        run: echo "Pipeline is working!"
